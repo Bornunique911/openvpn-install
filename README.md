@@ -14,14 +14,14 @@ You can also check out [wireguard-install](https://github.com/angristan/wireguar
 
 First, get the script and make it executable:
 
-```bash
+```console
 curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
 chmod +x openvpn-install.sh
 ```
 
 Then run it:
 
-```sh
+```console
 ./openvpn-install.sh
 ```
 
@@ -47,11 +47,11 @@ It's also possible to run the script headless, e.g. without waiting for user inp
 
 Example usage:
 
-```bash
+```console
 AUTO_INSTALL=y ./openvpn-install.sh
-
-# or
-
+```
+**OR**
+```console
 export AUTO_INSTALL=y
 ./openvpn-install.sh
 ```
